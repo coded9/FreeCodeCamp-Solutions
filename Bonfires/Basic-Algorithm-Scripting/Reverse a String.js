@@ -1,3 +1,10 @@
+/* Bonfire: Reverse a String
+  Code by Ashok
+  http://www.freecodecamp.com/coded9
+*/
+
+
+
 function reverseString(str) {
   array = str.split("");
   
