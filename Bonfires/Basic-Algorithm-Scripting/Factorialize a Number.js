@@ -1,3 +1,9 @@
+/* Bonfire: Factorialize a Number
+  Code by Ashok
+  http://www.freecodecamp.com/coded9
+*/
+
+
 function factorialize(num) {
   var i =1;
   test = num;
