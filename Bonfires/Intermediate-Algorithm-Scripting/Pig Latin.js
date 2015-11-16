@@ -15,4 +15,4 @@ function translate(str) {
  return str;
 }
 
-translate("consonant");
+translate("helloworld");
