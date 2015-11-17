@@ -2,6 +2,7 @@
 Bonfire: Convert HTML Entities
 Author:Ashok
 */
+Method1 :
 function convert(str) {
   // &colon;&rpar;
 var replaceObj ={
@@ -21,3 +22,14 @@ return str;
 
 
 convert("Dolce & Gabbana");
+
+Method2:
+function convert(str) {
+  str = str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&apos;');
+return str;
+}
+
+
+convert("Dolce & Gabbana");
+
+
