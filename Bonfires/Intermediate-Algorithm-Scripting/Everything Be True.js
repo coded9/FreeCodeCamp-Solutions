@@ -5,7 +5,7 @@ function every(collection, pre) {
   // Is everyone being true?
   var count = 0;
   for(a in collection){
-    if(a.pre){
+    if(collection[a].hasOwnProperty(pre) && collection[a][pre] ){
       count++;
     }
   }
