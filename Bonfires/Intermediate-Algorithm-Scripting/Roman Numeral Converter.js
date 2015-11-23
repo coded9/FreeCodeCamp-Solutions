@@ -1,6 +1,6 @@
 /*
-
-
+Bonfire:Roman Numeral converter
+Author:Ashok
 */
 
 function convert(num) {
@@ -32,7 +32,7 @@ function convert(num) {
 
 convert(44);
 
-//With one for loop
+#With one for loop
 function convert(num) {
   //Array for storing the split values of given number(1984 = 1000+900+80+4)
   var numArr = [];
