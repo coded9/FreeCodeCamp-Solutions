@@ -18,4 +18,4 @@ function telephoneCheck(str) {
 
 
 
-telephoneCheck("1(555)555-5555");
+telephoneCheck("1-555-555-5555");
