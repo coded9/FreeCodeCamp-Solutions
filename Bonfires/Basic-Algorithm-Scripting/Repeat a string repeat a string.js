@@ -13,3 +13,17 @@ function repeat(str, num) {
 }
 
 repeat("abc", 5);
+
+
+function repeat(str, num) {
+  var myArray = [];
+    for(i = 0; i < num; i++){
+        myArray.push(str);
+      //console.log(myArray)
+    }
+  myArray = myArray.join("");
+return myArray;
+}
+
+
+repeat("abc", 3);
