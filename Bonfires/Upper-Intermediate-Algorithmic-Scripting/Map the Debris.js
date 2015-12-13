@@ -20,11 +20,15 @@ function orbitalPeriod(arr) {
   var GM = 398600.4418;
   var earthRadius = 6367.4447;
   console.log(arr);
+  //Looping through each key in arr object
   for(var prop in arr){
+    //formula  of orbital period https://en.wikipedia.org/wiki/Orbital_period here a = avgAlt+earthRadius
+    //Rounding off the orbital period value 
   var orbitalPer = Math.round(2*Math.PI*Math.sqrt(Math.pow(arr[prop].avgAlt+earthRadius,3)/GM));
+  //deleting the avgAlt property 
   delete arr[prop].avgAlt;
+  //adding orbitalPeriod property
   arr[prop].orbitalPeriod = orbitalPer;
-  console.log(arr);
   }
   return arr;
 }
