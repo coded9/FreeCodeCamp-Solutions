@@ -16,3 +16,18 @@ function palindrome(str) {
 
 
 palindrome("never odd or even");
+
+
+
+function palindrome(str) {
+  // Good luck!
+var strStrip = str.replace(/[^A-Za-z0-9]/g,"").toLowerCase();
+  if(strStrip.split("").reverse().join("")==strStrip)
+  return true;
+  else
+    return false;
+}
+
+
+
+palindrome("never odd or even");
