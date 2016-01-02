@@ -1,7 +1,7 @@
 /*
 Bonfire: Inventory Update
-Ref: http://stackoverflow.com/questions/16096872/how-to-sort-2-dimensional-array-by-column-value
-     http://stackoverflow.com/questions/13769865/create-array-where-keys-match
+Ref:  http://stackoverflow.com/questions/16096872/how-to-sort-2-dimensional-array-by-column-value
+      http://stackoverflow.com/questions/13769865/create-array-where-keys-match
 */
 function inventory(arr1, arr2) {
     // All inventory must be accounted for or you're fired!
